@@ -25,6 +25,17 @@ The system uses clinical symptoms, lifestyle data, and conversational input to:
 - Frontend: React (planned)
 
 ## How to Run
+### Backend
+uvicorn server:app --host 0.0.0.0 --port 8000
+
+### Frontend
+Open index.html with Live Server
+
+## Features
+- AI-based PCOS risk prediction
+- Lifestyle analysis
+- Acne detection (OpenCV)
+- Real-time scoring
 
 ```bash
 pip install -r requirements.txt
